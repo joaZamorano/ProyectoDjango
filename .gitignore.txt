@@ -1,0 +1,7 @@
+*.pyc
+*~
+_pycache_
+WebMovile
+db.sqlite3
+/static
+.DS_Store
