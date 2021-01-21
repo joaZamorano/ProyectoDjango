@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "WebMovile\\Scripts\\python.exe"
+    "python.pythonPath": "WebMovile\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
