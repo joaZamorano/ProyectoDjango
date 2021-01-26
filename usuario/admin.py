@@ -1,4 +1,6 @@
 from django.contrib import admin
-from .models import Persona
+from .models import Cliente,  Habitacion, Reserva
 
-admin.site.register(Persona)
+admin.site.register(Cliente)
+admin.site.register(Reserva)
+admin.site.register(Habitacion)
