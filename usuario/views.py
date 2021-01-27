@@ -1,22 +1,24 @@
 from django.shortcuts import render
 
 # Create your views here.
-def inicio(request):
-    return render(request, 'usuario/inicio.html', {})
-def lista(request):
-    return render(request, 'usuario/lista_persona.html', {})
-    
-#def acceso(request):
-'''    m = Member.objects.get(username=request.POST['username'])
-    if m.password == request.POST['password']:
-        request.session['member_id'] = m.id
-        return HttpResponse("Usted está logeado")
-    else:
-        return HttpResponse("Tu usuario o contraseña no son correctos")
+def index(request):
+    return render(request, 'usuario/index.html', {})
+
+def login(request):
+    return render(request, 'usuario/login.html', {})
+
+def admin(request):
+    return render(request, 'usuario/admin.html', {})
 
 def logout(request):
-    try:
-        del request.session['member_id']
-    except KeyError:
-        pass
-    return HttpResponse("Sesión cerrada")'''
+    return render(request, 'usuario/index.html', {})
+
+def reservar(request):
+    return render(request, 'usuario/reservar.html', {})
+
+def registro(request):
+    return render(request, 'usuario/registro.html', {})
+
+def habitaciones(request):
+    return render(request, 'usuario/Habitaciones reservadas.html', {})
+    

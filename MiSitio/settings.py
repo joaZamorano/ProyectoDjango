@@ -121,9 +121,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Si se conecta correctamente se va a url 'lista'
-LOGIN_REDIRECT_URL='lista'
+#LOGIN_REDIRECT_URL='lista'
 
 # La vista que hara el control del acceso
-LOGIN_URL='InicioSesion'
+#LOGIN_URL='InicioSesion'
 
 #STATIC_ROOT = BASE_DIR /'static'
